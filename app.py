@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Hello, CI/CD!"
+    return "Hello, CI/CD! Added email notification"
 
 
 if __name__ == '__main__':
