@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.log
+
+# Виртуальное окружение
+venv/
+env/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Конфигурационные файлы и секретные данные
+*.env
+*.json
+instance/
+
+# Кэшированные файлы
+*.pyc
+*.pyo
+.DS_Store
+*.swp
+
+# Логи
+logs/
+*.log
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.iml
